@@ -6,6 +6,7 @@
 // console.log(myFunction([1,2,3,4,5],3));
 
 // Write a function that takes an array (a) as argument. Remove the first 3 elements of 'a'. Return the result
+
 // function
 // myFunction(a){
 //     return a.slice(3);
@@ -40,10 +41,10 @@
 // Write a function that takes an array (a) and a value (b) as argument. The function should remove all elements equal to 'b' from the array. Return the filtered array.
 
 // function myFunction (a, b) {
-//     return a.filter((num) => {
-//         number !==0;
-//     })
+//     return a.filter((num) => num !==b )
 // }
+
+
     
 // console.log(myFunction([1,2,3], 2));
 
@@ -78,17 +79,37 @@
 // console.log(myFunction([1,3,2]));
 
 
-// Write a function that takes an array of numbers as argument. It should return the sum of the numbers.
-// function myFunction (a) {
-//     return ;
-// }
-// console.log(myFunction([10,100,40]));
 
 // Write a function that takes an array of numbers as argument. It should return the sum of the numbers.
 
 // function myFunction(a) {
-//     return a.reduce((num1, num2) => {
-//         return num1 + num2;
-//     })
+//     let sum = a.reduce((num1, num2) => num1 + num2);
+//     return sum;
 // }
 // console.log(myFunction([10,100,40]))
+
+
+// Write a function that takes an array of numbers as argument. It should return the average of the numbers.
+
+// function myFunction (arr) {
+//   let sum = arr.reduce((num1, num2) => num1 + num2, 0);
+//   let arrLength = arr.length;
+//   let average = sum / arrLength;
+//   return average;
+// }
+// console.log(myFunction([10,100,40]));
+
+
+// Write a function that takes two arrays as arguments. Merge both arrays and remove duplicate values. Sort the merge result in ascending order. Return the resulting array
+
+// function myFunction (a, b) {
+//     let 
+// }
+// console.log(myFunction([1, 2, 3], [3, 4, 5]))
+
+// Write a function that takes arguments an arbitrary number of arrays. It should return an array containing the values of all arrays.
+
+// function myFunction (...arrays) {
+//     return 
+// }
+// console.log(myFunction([1, 2, 3], [4, 5, 6]));
